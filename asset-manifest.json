@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/week-20-react-portfolio/static/js/main.f27c867d.chunk.js",
-    "main.js.map": "/week-20-react-portfolio/static/js/main.f27c867d.chunk.js.map",
+    "main.css": "/week-20-react-portfolio/static/css/main.c933d3e1.chunk.css",
+    "main.js": "/week-20-react-portfolio/static/js/main.2a6fbef3.chunk.js",
+    "main.js.map": "/week-20-react-portfolio/static/js/main.2a6fbef3.chunk.js.map",
     "runtime-main.js": "/week-20-react-portfolio/static/js/runtime-main.f6b72bb1.js",
     "runtime-main.js.map": "/week-20-react-portfolio/static/js/runtime-main.f6b72bb1.js.map",
-    "static/css/2.d45d6843.chunk.css": "/week-20-react-portfolio/static/css/2.d45d6843.chunk.css",
-    "static/js/2.7967f1bc.chunk.js": "/week-20-react-portfolio/static/js/2.7967f1bc.chunk.js",
-    "static/js/2.7967f1bc.chunk.js.map": "/week-20-react-portfolio/static/js/2.7967f1bc.chunk.js.map",
+    "static/js/2.780e9791.chunk.js": "/week-20-react-portfolio/static/js/2.780e9791.chunk.js",
+    "static/js/2.780e9791.chunk.js.map": "/week-20-react-portfolio/static/js/2.780e9791.chunk.js.map",
     "index.html": "/week-20-react-portfolio/index.html",
-    "static/css/2.d45d6843.chunk.css.map": "/week-20-react-portfolio/static/css/2.d45d6843.chunk.css.map",
-    "static/js/2.7967f1bc.chunk.js.LICENSE.txt": "/week-20-react-portfolio/static/js/2.7967f1bc.chunk.js.LICENSE.txt"
+    "static/css/main.c933d3e1.chunk.css.map": "/week-20-react-portfolio/static/css/main.c933d3e1.chunk.css.map",
+    "static/js/2.780e9791.chunk.js.LICENSE.txt": "/week-20-react-portfolio/static/js/2.780e9791.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f6b72bb1.js",
-    "static/css/2.d45d6843.chunk.css",
-    "static/js/2.7967f1bc.chunk.js",
-    "static/js/main.f27c867d.chunk.js"
+    "static/js/2.780e9791.chunk.js",
+    "static/css/main.c933d3e1.chunk.css",
+    "static/js/main.2a6fbef3.chunk.js"
   ]
 }
