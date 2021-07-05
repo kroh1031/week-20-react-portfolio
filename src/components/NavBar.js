@@ -1,6 +1,7 @@
+import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           KAREN ROH
@@ -23,25 +24,41 @@ const NavBar = () => {
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="/">
+              <NavLink
+                exact
+                to="/"
+                className="nav-link"
+                activeStyle={{ fontWeight: "bold" }}
+              >
                 About Me
-                <span class="visually-hidden">(current)</span>
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/portfolio">
+              <NavLink
+                to="/portfolio"
+                className="nav-link"
+                activeStyle={{ fontWeight: "bold" }}
+              >
                 Portfolio
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact">
+              <NavLink
+                to="/contact"
+                className="nav-link"
+                activeStyle={{ fontWeight: "bold" }}
+              >
                 Contact
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/resume">
+              <NavLink
+                to="/resume"
+                className="nav-link"
+                activeStyle={{ fontWeight: "bold" }}
+              >
                 Resume
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

@@ -6,11 +6,12 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import NavBar from "./components/NavBar";
+import All from "./styles/All.css"
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="font">
         <NavBar />
         <Switch>
           <Route exact path="/" component={AboutMe} />
