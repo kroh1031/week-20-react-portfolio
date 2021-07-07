@@ -1,3 +1,5 @@
+import profilePic from "../../media/about-me.jpg";
+
 const AboutMe = () => {
   return (
     <div className="container">
@@ -25,7 +27,13 @@ const AboutMe = () => {
           </h5>
         </div>
         <div className="col-sm-6">
-          {/* <img className="my-image" src="./assets/images/about-me.jpg" alt="Table Setting" width="400" height="500" /> */}
+          <img
+            className="rounded"
+            src={profilePic}
+            alt="Profile Image"
+            width="400"
+            height="500"
+          />
         </div>
       </section>
     </div>
