@@ -3,7 +3,7 @@ import profilePic from "../../media/about-me.jpg";
 const AboutMe = () => {
   return (
     <div className="container">
-      <section className="row mt-5">
+      <div className="row mt-5">
         <div className="col-sm-6">
           <h1>About Me</h1>
           <br />
@@ -35,7 +35,7 @@ const AboutMe = () => {
             height="500"
           />
         </div>
-      </section>
+      </div>
     </div>
   );
 };
