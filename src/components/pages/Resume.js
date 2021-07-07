@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="container mt-3">
       <h1>Resume</h1>
       <div>
-        Download my{" "}
+        Open my{" "}
         <a href={resume} target="_blank">
           resume
         </a>

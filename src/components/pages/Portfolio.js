@@ -1,6 +1,12 @@
+import recipeFinderCard from "../../media/recipe-finder-card.jpeg";
+import tshirtImage from "../../media/t-shirt.jpeg";
+import weatherDashboardCard from "../../media/weather-dashboard-card.jpeg";
+import techBlogImage from "../../media/tech-blog.jpeg";
+import workoutTrackerImage from "../../media/workout-tracker.png";
+import workdaySchedulerImage from "../../media/workday-scheduler.jpeg";
+
 const Portfolio = () => {
   return (
-    // <!-- Recipe Finder Card -->
     <div className="container">
       <section class="row mt-3">
         <div>
@@ -8,10 +14,103 @@ const Portfolio = () => {
         </div>
       </section>
       <div className="row mb-3">
+        {/* // <!-- Tech Blog Card --> */}
         <div className="col">
           <div className="card h-100">
             <img
-              src="./assets/images/recipe-finder.jpg"
+              src={techBlogImage}
+              class="card-img-top project-image"
+              alt="..."
+              height="350"
+            />
+            <div className="card-body text-center">
+              <h5 className="card-title">Tech Blog</h5>
+              <a
+                href="https://tech-blog-app14.herokuapp.com/"
+                target="“_blank”"
+                class="card-text"
+              >
+                Link to the deployed version{" "}
+              </a>
+              <br />
+              <a
+                href="https://github.com/kroh1031/week-14-tech-blog"
+                target="“_blank”"
+                class="card-text"
+              >
+                Link to the GitHub repository{" "}
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+        {/* <!-- Workout Tracker Card --> */}
+        <div className="col">
+          <div className="card h-100">
+            <img
+              src={workoutTrackerImage}
+              class="card-img-top img-responsive project-image"
+              alt="..."
+              height="350"
+            />
+            <div className="card-body text-center">
+              <h5 className="card-title">Workout Tracker</h5>
+              <a
+                href="https://workout-tracker-188.herokuapp.com/"
+                target="“_blank”"
+                className="card-text"
+              >
+                Link to the deployed version{" "}
+              </a>
+              <br />
+              <a
+                href="https://github.com/kroh1031/week-18-workout-tracker"
+                target="“_blank”"
+                className="card-text no-underline"
+              >
+                Link to the GitHub repository{" "}
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+        {/* <!-- Work Day Scheduler Card --> */}
+        <div className="col">
+          <div className="card h-100">
+            <img
+              src={workdaySchedulerImage}
+              className="card-img-top img-responsive project-image"
+              alt="..."
+              height="350"
+            />
+            <div className="card-body text-center">
+              <h5 className="card-title">Work Day Scheduler</h5>
+              <a
+                href="https://kroh1031.github.io/week-05-work-day-scheduler/"
+                target="“_blank”"
+                className="card-text no-underline"
+              >
+                Link to the deployed version{" "}
+              </a>
+              <br />
+              <a
+                href="https://github.com/kroh1031/week-05-work-day-scheduler"
+                target="“_blank”"
+                className="card-text no-underline"
+              >
+                Link to the GitHub repository{" "}
+              </a>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Second Row */}
+      <div className="row mb-3">
+        <div className="col">
+          <div className="card h-100">
+            <img
+              src={recipeFinderCard}
               class="card-img-top project-image"
               alt="..."
               height="350"
@@ -34,13 +133,6 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
-              <a
-                href="./assets/images/recipe-finder-screenshot.png"
-                target="“_blank”"
-                className="card-text"
-              >
-                Screenshot of the deployed application
-              </a>
             </div>
           </div>
         </div>
@@ -48,7 +140,7 @@ const Portfolio = () => {
         <div className="col">
           <div className="card h-100">
             <img
-              src="./assets/images/t-shirt.jpg"
+              src={tshirtImage}
               class="card-img-top img-responsive project-image"
               alt="..."
               height="350"
@@ -71,13 +163,6 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
-              <a
-                href="./assets/images/cohoots-screenshot.png"
-                target="“_blank”"
-                className="card-text no-underline"
-              >
-                Screenshot of the deployed application
-              </a>
             </div>
           </div>
         </div>
@@ -85,7 +170,7 @@ const Portfolio = () => {
         <div className="col">
           <div className="card h-100">
             <img
-              src="./assets/images/weather-dashboard.jpg"
+              src={weatherDashboardCard}
               className="card-img-top img-responsive project-image"
               alt="..."
               height="350"
@@ -108,13 +193,6 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
-              <a
-                href="./assets/images/weather-dashboard-screenshot2.png"
-                target="“_blank”"
-                className="card-text no-underline"
-              >
-                Screenshot of the deployed application
-              </a>
             </div>
           </div>
         </div>
