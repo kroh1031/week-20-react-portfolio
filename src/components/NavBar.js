@@ -8,9 +8,6 @@ const NavBar = () => {
         <Link to="/week-20-react-portfolio" className="navbar-brand my-brand">
           Karen Roh
         </Link>
-        {/* <a class="navbar-brand my-brand" href="/">
-          Karen Roh
-        </a> */}
         <button
           class="navbar-toggler"
           type="button"
