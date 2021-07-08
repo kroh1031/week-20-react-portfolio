@@ -1,6 +1,10 @@
 import { React, useState } from "react";
 
 const Contact = () => {
+  //   WHEN I move my cursor out of one of the form fields without entering text
+  // THEN I receive a notification that this field is required
+  // WHEN I enter text into the email address field
+  // THEN I receive a notification if I have entered an invalid email address
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
 
