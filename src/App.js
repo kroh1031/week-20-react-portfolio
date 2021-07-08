@@ -16,7 +16,7 @@ const App = () => {
         <div className="font">
           <NavBar />
           <Switch>
-            <Route exact path="/" component={AboutMe} />
+            <Route exact path="/week-20-react-portfolio" component={AboutMe} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/resume" component={Resume} />

@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2">
       <div class="container-fluid">
-        <Link to="/" className="navbar-brand my-brand">
+        <Link to="/week-20-react-portfolio" className="navbar-brand my-brand">
           Karen Roh
         </Link>
         {/* <a class="navbar-brand my-brand" href="/">
@@ -31,7 +31,7 @@ const NavBar = () => {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/week-20-react-portfolio"
                 className="nav-link"
                 activeStyle={{ fontWeight: "bold" }}
               >
