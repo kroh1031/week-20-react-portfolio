@@ -1,13 +1,16 @@
-import { NavLink } from "react-router-dom";
-import "../styles/NavBar.css"
+import { Link, NavLink } from "react-router-dom";
+import "../styles/NavBar.css";
 
 const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2">
       <div class="container-fluid">
-        <a class="navbar-brand my-brand" href="/">
+        <Link to="/" className="navbar-brand my-brand">
           Karen Roh
-        </a>
+        </Link>
+        {/* <a class="navbar-brand my-brand" href="/">
+          Karen Roh
+        </a> */}
         <button
           class="navbar-toggler"
           type="button"
