@@ -4,19 +4,14 @@ import weatherDashboardCard from "../../media/weather-dashboard-card.jpeg";
 import techBlogImage from "../../media/tech-blog.jpeg";
 import workoutTrackerImage from "../../media/workout-tracker.png";
 import workdaySchedulerImage from "../../media/workday-scheduler.jpeg";
+import recipeFinderScreenshot from "../../media/recipe-finder-screenshot.png";
+import coHootsScreenshot from "../../media/cohoots-screenshot.png";
+import weatherDashboardScreenshot from "../../media/weather-dashboard-screenshot.png";
+import techBlogScreenshot from "../../media/tech-blog-screenshot.png";
+import workoutTrackerScreenshot from "../../media/workout-tracker-screenshot.png";
+import workdaySchedulerScreenshot from "../../media/workday-scheduler-screenshot.png";
 
 const Portfolio = () => {
-  //   ### Projects
-
-  // For each project that is featured in your portfolio, include the following:
-
-  // - An image of the deployed application (either a short animated GIF or screenshot)
-
-  // - The title of the project
-
-  // - A link to the deployed application
-
-  // - A link to the corresponding GitHub repository
   return (
     <div className="container">
       <section class="row mt-3">
@@ -36,6 +31,7 @@ const Portfolio = () => {
             />
             <div className="card-body text-center">
               <h5 className="card-title">Tech Blog</h5>
+
               <a
                 href="https://tech-blog-app14.herokuapp.com/"
                 target="“_blank”"
@@ -50,6 +46,14 @@ const Portfolio = () => {
                 class="card-text"
               >
                 Link to the GitHub repository{" "}
+              </a>
+              <br />
+              <a
+                href={techBlogScreenshot}
+                target="“_blank”"
+                class="card-text no-underline"
+              >
+                Screenshot of the deployed application
               </a>
               <br />
             </div>
@@ -82,6 +86,14 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
+              <a
+                href={workoutTrackerScreenshot}
+                target="“_blank”"
+                class="card-text no-underline"
+              >
+                Screenshot of the deployed application
+              </a>
+              <br />
             </div>
           </div>
         </div>
@@ -110,6 +122,14 @@ const Portfolio = () => {
                 className="card-text no-underline"
               >
                 Link to the GitHub repository{" "}
+              </a>
+              <br />
+              <a
+                href={workdaySchedulerScreenshot}
+                target="“_blank”"
+                class="card-text no-underline"
+              >
+                Screenshot of the deployed application
               </a>
               <br />
             </div>
@@ -144,6 +164,14 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
+              <a
+                href={recipeFinderScreenshot}
+                target="“_blank”"
+                class="card-text no-underline"
+              >
+                Screenshot of the deployed application
+              </a>
+              <br />
             </div>
           </div>
         </div>
@@ -174,6 +202,13 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
+              <a
+                href={coHootsScreenshot}
+                target="“_blank”"
+                class="card-text no-underline"
+              >
+                Screenshot of the deployed application
+              </a>
             </div>
           </div>
         </div>
@@ -204,6 +239,13 @@ const Portfolio = () => {
                 Link to the GitHub repository{" "}
               </a>
               <br />
+              <a
+                href={weatherDashboardScreenshot}
+                target="“_blank”"
+                class="card-text no-underline"
+              >
+                Screenshot of the deployed application
+              </a>
             </div>
           </div>
         </div>
