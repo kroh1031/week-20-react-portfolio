@@ -7,23 +7,20 @@ const AboutMe = () => {
         <div className="col-sm-6">
           <h1>About Me</h1>
           <br />
-          <h4 className="text-center">
-            Name: Karen Roh
-            <br />
-            Born in: Miami, FL
-          </h4>
+
           <h5 className="text-center">
-            I'm an ordinary 18 year old high school graduate that found interest
-            in computer programming while searching for a field that I wanted to
-            major in.
+            I'm a passionate and zealous Full Stack Web Developer prepared to
+            take on complex tasks doing everything I can to exceed expectations
+            and delight others.
             <br />
-            I speak English and Korean.
             <br />
             I coordinate very well with people and know the way to work as a
             team.
             <br />
-            My goal is to become a full stack web developer.
             <br />
+            I'm an attentive and quick learner that is always receptive to
+            training in order to become the perfect match for the constantly
+            growing IT industry.
           </h5>
         </div>
         <div className="col-sm-6">
