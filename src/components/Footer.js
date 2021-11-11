@@ -8,14 +8,14 @@ const Footer = () => {
       <footer className="mt-3 mb-2">
         {/* First Icon */}
 
-        <a href="https://github.com/kroh1031" target="_blank">
+        <a href="https://github.com/kroh1031" class="icon" target="_blank">
           <img src={gitHubIcon} alt="GitHub Logo" />
         </a>
 
         {/* Second Icon */}
 
         <a
-          href="https://www.linkedin.com/in/karen-roh-a43791205/"
+          href="https://www.linkedin.com/in/karen-roh-a43791205/" class="icon"
           target="_blank"
         >
           <img src={linkedInIcon} alt="GitHub Logo" />
@@ -25,7 +25,7 @@ const Footer = () => {
 
         <a
           href="https://stackoverflow.com/users/15106572/karen-roh?tab=profile"
-          target="_blank"
+          target="_blank" 
         >
           <img src={stackOverFlowIcon} alt="StackOverFlow Logo" />
         </a>
