@@ -1,4 +1,4 @@
-import resume from "../../media/resume.a02ghs.pdf";
+import resume from "../../media/professional-resume.pdf";
 import ResumeStyle from "../../styles/Resume.css";
 
 const Resume = () => {
