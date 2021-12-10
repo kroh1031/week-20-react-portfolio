@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/week-20-react-portfolio/static/css/main.3cddd53d.chunk.css",
-    "main.js": "/week-20-react-portfolio/static/js/main.134bb55a.chunk.js",
-    "main.js.map": "/week-20-react-portfolio/static/js/main.134bb55a.chunk.js.map",
+    "main.css": "/week-20-react-portfolio/static/css/main.1b8146a7.chunk.css",
+    "main.js": "/week-20-react-portfolio/static/js/main.ff7628a5.chunk.js",
+    "main.js.map": "/week-20-react-portfolio/static/js/main.ff7628a5.chunk.js.map",
     "runtime-main.js": "/week-20-react-portfolio/static/js/runtime-main.f6b72bb1.js",
     "runtime-main.js.map": "/week-20-react-portfolio/static/js/runtime-main.f6b72bb1.js.map",
     "static/js/2.f20f2911.chunk.js": "/week-20-react-portfolio/static/js/2.f20f2911.chunk.js",
     "static/js/2.f20f2911.chunk.js.map": "/week-20-react-portfolio/static/js/2.f20f2911.chunk.js.map",
     "index.html": "/week-20-react-portfolio/index.html",
-    "static/css/main.3cddd53d.chunk.css.map": "/week-20-react-portfolio/static/css/main.3cddd53d.chunk.css.map",
+    "static/css/main.1b8146a7.chunk.css.map": "/week-20-react-portfolio/static/css/main.1b8146a7.chunk.css.map",
     "static/js/2.f20f2911.chunk.js.LICENSE.txt": "/week-20-react-portfolio/static/js/2.f20f2911.chunk.js.LICENSE.txt",
     "static/media/about-me.1c503d4a.jpg": "/week-20-react-portfolio/static/media/about-me.1c503d4a.jpg",
+    "static/media/cohoots-screenshot.47ba85f9.png": "/week-20-react-portfolio/static/media/cohoots-screenshot.47ba85f9.png",
+    "static/media/professional-resume.7927104c.pdf": "/week-20-react-portfolio/static/media/professional-resume.7927104c.pdf",
     "static/media/recipe-finder-card.8ef52bad.jpeg": "/week-20-react-portfolio/static/media/recipe-finder-card.8ef52bad.jpeg",
-    "static/media/resume.a02ghs.9aa6f2db.pdf": "/week-20-react-portfolio/static/media/resume.a02ghs.9aa6f2db.pdf",
+    "static/media/recipe-finder-screenshot.d3c5819f.png": "/week-20-react-portfolio/static/media/recipe-finder-screenshot.d3c5819f.png",
     "static/media/t-shirt.d9a8fea0.jpeg": "/week-20-react-portfolio/static/media/t-shirt.d9a8fea0.jpeg",
+    "static/media/tech-blog-screenshot.664fd65d.png": "/week-20-react-portfolio/static/media/tech-blog-screenshot.664fd65d.png",
     "static/media/tech-blog.72036b7c.jpeg": "/week-20-react-portfolio/static/media/tech-blog.72036b7c.jpeg",
     "static/media/weather-dashboard-card.98283631.jpeg": "/week-20-react-portfolio/static/media/weather-dashboard-card.98283631.jpeg",
-    "static/media/workday-scheduler.e2e396ba.jpeg": "/week-20-react-portfolio/static/media/workday-scheduler.e2e396ba.jpeg"
+    "static/media/weather-dashboard-screenshot.17c712a6.png": "/week-20-react-portfolio/static/media/weather-dashboard-screenshot.17c712a6.png",
+    "static/media/workday-scheduler-screenshot.e4717644.png": "/week-20-react-portfolio/static/media/workday-scheduler-screenshot.e4717644.png",
+    "static/media/workday-scheduler.e2e396ba.jpeg": "/week-20-react-portfolio/static/media/workday-scheduler.e2e396ba.jpeg",
+    "static/media/workout-tracker-screenshot.d7aabb11.png": "/week-20-react-portfolio/static/media/workout-tracker-screenshot.d7aabb11.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6b72bb1.js",
     "static/js/2.f20f2911.chunk.js",
-    "static/css/main.3cddd53d.chunk.css",
-    "static/js/main.134bb55a.chunk.js"
+    "static/css/main.1b8146a7.chunk.css",
+    "static/js/main.ff7628a5.chunk.js"
   ]
 }
